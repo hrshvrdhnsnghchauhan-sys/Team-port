@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capstone Portfolio — Harshvardhan, Suraj & Kumkum</title>
+  <meta name="description" content="OJT Capstone team portfolio by Harshvardhan Singh Chauhan, Suraj Madheshiya & Kumkum Jangir — 3 developers, 6 projects built during internship." />
+  <meta name="keywords" content="team portfolio, capstone, javascript, web development, OJT, internship" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="wrap">
+      <a class="brand" href="#" aria-label="Go to top">
+        <span class="brand-accent">Dev</span>Squad
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#team">Team</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle light mode">
+        Light Mode
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" role="banner">
+    <div class="hero-bg-shape shape1" aria-hidden="true"></div>
+    <div class="hero-bg-shape shape2" aria-hidden="true"></div>
+
+    <div class="wrap hero-wrap">
+      <div class="hero-text">
+        <p class="hero-tag">OJT Capstone 2026 · Track B</p>
+        <h1>We built <span class="accent">6 real apps</span> from scratch — together.</h1>
+        <p class="hero-desc">
+          Three students. One shared codebase. No frameworks, no shortcuts.
+          Just JavaScript, teamwork, and a lot of debugging sessions.
+        </p>
+        <div class="hero-photos" aria-label="Team photos">
+          <img src="images/harshvardhan.jpg" alt="Harshvardhan Singh Chauhan" class="hero-photo hp1" />
+          <img src="images/suraj.jpg"        alt="Suraj Madheshiya"           class="hero-photo hp2" />
+          <img src="images/kumkum.jpg"       alt="Kumkum Jangir"              class="hero-photo hp3" />
+        </div>
+        <div class="hero-actions">
+          <a href="#team" class="btn-main">Meet the Team</a>
+          <a href="#projects" class="btn-outline">See Projects</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- QUICK STATS -->
+  <div class="quick-stats" role="complementary">
+    <div class="wrap stats-row">
+      <div class="stat">
+        <strong>3</strong>
+        <span>Developers</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <strong>6</strong>
+        <span>Apps Built</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <strong>6</strong>
+        <span>Live Right Now</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat">
+        <strong>100%</strong>
+        <span>Vanilla JS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEAM -->
+  <section id="team" aria-labelledby="team-heading">
+    <div class="wrap">
+      <div class="section-intro">
+        <h2 id="team-heading">The Team</h2>
+        <p>We each took ownership of a different part of the stack, which meant we actually had to trust each other to get things done.</p>
+      </div>
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <div class="wrap">
+      <div class="section-intro">
+        <h2 id="projects-heading">What We Built</h2>
+        <p>Six projects over the course of our OJT internship — some live, some still in progress, all real.</p>
+      </div>
+      <ul class="project-list" id="repo-list"></ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="wrap">
+      <div class="section-intro">
+        <h2 id="contact-heading">Get in Touch</h2>
+        <p>Want to say hi, give feedback, or just talk code? We're all on GitHub.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-links animate-in">
+          <h3>Find us on GitHub</h3>
+          <div class="gh-list">
+            <a href="https://github.com/hrshvrdhnsnghchauhan-sys" target="_blank" rel="noopener noreferrer" class="gh-card">
+              <img src="images/harshvardhan.jpg" alt="Harshvardhan" class="gh-avatar" />
+              <div class="gh-info">
+                <strong>Harshvardhan Singh Chauhan</strong>
+                <span>@hrshvrdhnsnghchauhan-sys</span>
+              </div>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="gh-arrow"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </a>
+            <a href="https://github.com/surajmadheshiya1946-creator" target="_blank" rel="noopener noreferrer" class="gh-card">
+              <img src="images/suraj.jpg" alt="Suraj" class="gh-avatar" />
+              <div class="gh-info">
+                <strong>Suraj Madheshiya</strong>
+                <span>@surajmadheshiya1946-creator</span>
+              </div>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="gh-arrow"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </a>
+            <a href="https://github.com/jangirkjangir186-ship-it" target="_blank" rel="noopener noreferrer" class="gh-card">
+              <img src="images/kumkum.jpg" alt="Kumkum" class="gh-avatar" />
+              <div class="gh-info">
+                <strong>Kumkum Jangir</strong>
+                <span>@jangirkjangir186-ship-it</span>
+              </div>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="gh-arrow"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form animate-in" novalidate aria-label="Contact form">
+          <h3>Send a Message</h3>
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="What should we call you?" />
+            <span class="field-error" data-error-for="name" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="your@email.com" />
+            <span class="field-error" data-error-for="email" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="What's on your mind?"></textarea>
+            <span class="field-error" data-error-for="message" role="alert"></span>
+          </div>
+          <button type="submit" id="submit-btn" class="submit-btn">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="wrap footer-row">
+      <span class="footer-name"><span class="brand-accent">Dev</span>Squad — OJT Capstone 2026</span>
+      <ul class="footer-links">
+        <li><a href="#team">Team</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://github.com/hrshvrdhnsnghchauhan-sys" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
